@@ -1,0 +1,23 @@
+<div id="list-container">
+  <ul id="list-items">
+    <li *ngFor="let item of items" class="list-item">
+      <span>{{ item }}</span>
+      <button
+        id="delete-button"
+        mat-icon-button
+        color="primary"
+        aria-label="Example icon button with a home icon"
+        (click)="removeItem(item)"
+        clickable
+      >
+        <mat-icon>close</mat-icon>
+      </button>
+    </li>
+  </ul>
+  <input
+    [(ngModel)]="newItem"
+    id="add-item-input"
+    placeholder="Add new item..."
+    (focusout)="addItem()"
+  />
+</div>

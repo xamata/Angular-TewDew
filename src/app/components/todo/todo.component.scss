@@ -1,0 +1,38 @@
+.list {
+  margin: 20px;
+}
+
+.list-day {
+  padding-right: 50px;
+  padding-left: 20px;
+}
+
+.modal-heading {
+  margin: 0px 20px;
+  color: black;
+  padding: 10px;
+  text-align: left;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.modal-heading h1 {
+  color: red;
+  text-align: center;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+  grid-gap: 0px;
+  justify-content: center;
+  height: 100%;
+  padding: 30px;
+}
+
+app-header {
+  height: 100%;
+  margin-right: auto;
+  padding-left: 30px;
+}
