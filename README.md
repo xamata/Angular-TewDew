@@ -10,7 +10,7 @@ Three projects hold together this application: an ASP.NET Core Web App, a Class 
 
 Example of the folder structure::<br><br>
 ![folder-structure](./tewdew-folder-structure.jpg)<br><br>
-This project runs using the Angular core framework, ‘ng serve’ will have it up and running on a local port. There’s nothing special about this Angular 17 folder structure, but I did want to point out the way the components are organized. I like to keep them within a components folder i.e. src/app/components. I find this to be the best prevention of clutter.
+This project runs using the Angular core framework, ‘ng serve’ will have it up and running on a local port. There’s nothing special about this Angular 17 folder structure, but I did want to point out the way the components are organized. I like to keep them within a components folder i.e. _src/app/components_. I find this to be the best prevention of clutter.
 
 # Future Versions🔮
 - User Authentication
